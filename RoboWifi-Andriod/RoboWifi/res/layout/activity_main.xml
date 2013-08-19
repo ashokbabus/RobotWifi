@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<TextView
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 />
+	<EditText
+	 android:id="@+id/text_ipadd"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:inputType="text"
+	 android:text="@string/default_ip"/>
+	
+	<EditText
+	 android:id="@+id/text_port"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:inputType="number"
+	 android:text="@string/default_port"/>
+	 
+	<Button
+	 android:id="@+id/connect"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:text="@string/connect"
+	 />
+	<TextView
+	 android:id="@+id/text_msg"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 />
+
+	<EditText
+	    android:id="@+id/text_motor"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="10" 
+	    android:inputType="text" >
+
+	    <requestFocus />
+	</EditText>
+
+	<Button
+	    android:id="@+id/send"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/send" />
+
+	
+	
+</LinearLayout>
